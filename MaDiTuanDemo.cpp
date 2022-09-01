@@ -30,7 +30,7 @@ void move(int _x, int _y, int n) {
 			Board[x_next][y_next] = n;
 
 			gotoxy(5 + x_next * 4, 3 + y_next *2);
-			Sleep(200);
+//			Sleep(200);
 			cout << n;
 			gotoxy(6 + n * 3, 10 + MAX *2);
 			cout << n;
@@ -44,7 +44,7 @@ void move(int _x, int _y, int n) {
 
 			Board[x_next][y_next] = 0;
 			gotoxy(5 + x_next * 4, 3 + y_next *2);
-			Sleep(100);
+//			Sleep(100);
 			cout << "   ";
 			gotoxy(6 + n * 3, 10 + MAX *2);
 			cout << "   ";
