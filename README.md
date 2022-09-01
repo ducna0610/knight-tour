@@ -1,8 +1,8 @@
 # Knight's tour
 
-This project finds a solution to the
+This project imitates to the
 [Knight's Tour problem](https://en.wikipedia.org/wiki/Knight%27s_tour)
-using backtracking algorithm.
+with board 5 * 5 using backtracking algorithm.
 
 ### Screen shot
 ![knight-tour](knight-tour-intro.png)
